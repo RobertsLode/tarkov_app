@@ -1,3 +1,6 @@
+@import './styles/reset.scss';
+@import './styles/flexboxgrid.css';
+
 .general--background {
   object-fit: cover;
   width: 100vw;
@@ -6,4 +9,41 @@
   top: 0;
   left: 0;
   z-index: -1;
+}
+
+.ammo--chart-main {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.test {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1px;
+  margin-top: 2px;
+}
+
+.ammo--chart {
+  margin-top: 100px;
+}
+
+.ammo--sheet-small-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 120px;
+  height: 70px;
+  border: 1px solid red;
+  margin: 1px;
+}
+
+.ammo--chart-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid red;
+  margin: 1px;
+  margin-top: 2px;
+  width: 100%;
 }
