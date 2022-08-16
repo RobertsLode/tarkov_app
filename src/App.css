@@ -16,12 +16,21 @@
   margin-left: 50px;
 }
 
-.test {
+.ballistic--teble-top {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   margin: 1px;
   margin-top: 2px;
+}
+
+.ballistic--teble {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1px;
+  margin-top: 2px;
+  border: 1px solid lightblue;
 }
 
 .ammo--chart {
@@ -34,7 +43,7 @@
   align-items: center;
   min-width: 120px;
   height: 70px;
-  border: 1px solid red;
+  border: 1px solid lightgrey;
   margin: 1px;
 }
 
@@ -42,8 +51,47 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  border: 1px solid red;
+  border: 1px solid lightgrey;
   margin: 1px;
   margin-top: 2px;
   width: 100%;
+}
+
+.color--explanation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgrey;
+  position: fixed;
+  top: 40px;
+  right: 3px;
+  max-width: 500px;
+}
+
+.color--explanation-map {
+  display: flex;
+  flex-direction: column;
+}
+
+.color--explanation-mapped {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid black;
+  gap: 10px;
+  overflow-wrap: break-word;
+}
+
+.color--explanation-mapped-color-box {
+  width: 122px;
+  height: 70px;
+}
+
+.color--explanation-mapped-text-box {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height: 100%;
+  overflow-wrap: break-word;
 }
